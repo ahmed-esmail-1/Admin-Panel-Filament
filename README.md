@@ -6,3 +6,5 @@ php artisan make:filament-resource User
 <!-- New model, then resource -->
 php artisan make:model Customer -m
 php artisan make:filament-resource Customer
+
+php artisan storage:link
