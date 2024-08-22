@@ -38,7 +38,9 @@ class AhmedPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
                 Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
+                // Widgets\FilamentInfoWidget::class,
+                // Widgets are located here vendor/filament/filament/src/Widgets
+
             ])
             ->middleware([
                 EncryptCookies::class,
